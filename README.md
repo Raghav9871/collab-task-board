@@ -35,9 +35,9 @@ cd collab-task-board
 ```
 ## 2. Set up the backend
 
-- create a .env file and put
-  PORT= 5000
-  MONGO_URI= your mongodb uri
+- create a .env file and put  
+  PORT= 5000  
+  MONGO_URI= your mongodb uri  
   JWT_SECRET= your secret key
   
 ```
