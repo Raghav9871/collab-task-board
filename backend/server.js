@@ -12,11 +12,16 @@ const app = express();
 const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
-    origin: '*',
+    origin: "https://collab-task-board-mraon82j7-raghav-s-projects-2a0c20b2.vercel.app",
+    methods: ["GET", "POST"],
+    credentials: true
   },
 });
 
-app.use(cors());
+app.use(cors({
+  origin: "https://collab-task-board-mraon82j7-raghav-s-projects-2a0c20b2.vercel.app",
+  credentials: true
+}));
 app.use(express.json());
 app.use('/api/logs', logRoutes);
 
