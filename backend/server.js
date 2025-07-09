@@ -19,7 +19,7 @@ const io = new Server(server, {
 });
 
 app.use(cors({
-  origin: "https://collab-task-board-mraon82j7-raghav-s-projects-2a0c20b2.vercel.app",
+  origin: "https://collab-task-board.vercel.app",
   credentials: true
 }));
 app.use(express.json());
