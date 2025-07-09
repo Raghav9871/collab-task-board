@@ -12,7 +12,7 @@ const app = express();
 const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
-    origin: "https://collab-task-board-mraon82j7-raghav-s-projects-2a0c20b2.vercel.app",
+    origin: "https://collab-task-board.vercel.app",
     methods: ["GET", "POST"],
     credentials: true
   },
