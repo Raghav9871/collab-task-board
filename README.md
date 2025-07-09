@@ -1,4 +1,4 @@
-# collab-task-board
+# Collab-task-board
 A collaborative Kanban board with real-time sync, smart assign, and conflict handling.
 
 ---
@@ -54,3 +54,5 @@ npm install
 npm run dev
 ```
 
+# Live project 
+- https://collab-task-board.vercel.app/
